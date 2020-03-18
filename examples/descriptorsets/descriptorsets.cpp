@@ -45,7 +45,9 @@ public:
 			glm::mat4 view;
 			glm::mat4 model;
 		} matrices;
+
 		VkDescriptorSet descriptorSet;
+		
 		vks::Texture2D texture;
 		vks::Buffer uniformBuffer;
 		glm::vec3 rotation;
